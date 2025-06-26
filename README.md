@@ -3,7 +3,7 @@
 If you encounter an error message like this:
 ![alt text](image.png)
 
-One way to bypass this is by editing the Host header in your request.
+One way to bypass this is by editing the Host header in your request and replacing it with the values below.
 
 ## Local Host filters
 
@@ -14,3 +14,4 @@ One way to bypass this is by editing the Host header in your request.
 - Short form: `127.1`
 - IPv6: `::1`
 - IPv4 address in IPv6 format: `[0:0:0:0:0:ffff:127.0.0.1]` or `[::ffff:127.0.0.1]`
+- localhost
